@@ -1,7 +1,7 @@
 Part 1 – Libc Functions
 
-- [ ] ft_isalpha
-- [ ] ft_isdigit
+- [x] ft_isalpha
+- [x] ft_isdigit
 - [ ] ft_isalnum
 - [ ] ft_isascii
 - [ ] ft_isprint
