@@ -5,7 +5,7 @@ Part 1 – Libc Functions
 - [x] ft_isalnum
 - [x] ft_isascii
 - [x] ft_isprint
-- [ ] ft_strlen
+- [x] ft_strlen
 - [ ] ft_memset
 - [ ] ft_bzero
 - [ ] ft_memcpy
