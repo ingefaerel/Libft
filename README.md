@@ -14,7 +14,7 @@ Part 1 – Libc Functions
 - [x] ft_strlcat
 - [x] ft_toupper
 - [x] ft_tolower
-- [ ] ft_strchr
+- [x] ft_strchr
 - [ ] ft_strrchr
 - [ ] ft_strncmp
 - [ ] ft_memchr
