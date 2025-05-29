@@ -6,7 +6,7 @@
 /*   By: emustafi <emustafi@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 16:24:24 by emustafi          #+#    #+#             */
-/*   Updated: 2025/05/29 13:10:56 by emustafi         ###   ########.fr       */
+/*   Updated: 2025/05/29 15:31:08 by emustafi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,9 @@ int	ft_isprint(int c);
 size_t	ft_strlen(const char *s);
 void *ft_memset(void *s, int c, size_t n);
 void ft_bzero(void *s, size_t n);
+void *ft_memcpy(void *dest, const void *src, size_t n);
+void *ft_memmove(void *dest, const void *src, size_t n);
+size_t ft_strlcpy(char *dst, const char *src, size_t size);
 
 
 #endif

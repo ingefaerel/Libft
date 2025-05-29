@@ -7,9 +7,9 @@ Part 1 – Libc Functions
 - [x] ft_isprint
 - [x] ft_strlen
 - [x] ft_memset
-- [ ] ft_bzero
-- [ ] ft_memcpy
-- [ ] ft_memmove
+- [x] ft_bzero
+- [x] ft_memcpy
+- [x] ft_memmove
 - [ ] ft_strlcpy
 - [ ] ft_strlcat
 - [ ] ft_toupper
