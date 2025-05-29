@@ -2,9 +2,9 @@ Part 1 – Libc Functions
 
 - [x] ft_isalpha
 - [x] ft_isdigit
-- [ ] ft_isalnum
-- [ ] ft_isascii
-- [ ] ft_isprint
+- [x] ft_isalnum
+- [x] ft_isascii
+- [x] ft_isprint
 - [ ] ft_strlen
 - [ ] ft_memset
 - [ ] ft_bzero
