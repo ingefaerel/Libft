@@ -10,10 +10,10 @@ Part 1 – Libc Functions
 - [x] ft_bzero
 - [x] ft_memcpy
 - [x] ft_memmove
-- [ ] ft_strlcpy
-- [ ] ft_strlcat
-- [ ] ft_toupper
-- [ ] ft_tolower
+- [x] ft_strlcpy
+- [x] ft_strlcat
+- [x] ft_toupper
+- [x] ft_tolower
 - [ ] ft_strchr
 - [ ] ft_strrchr
 - [ ] ft_strncmp
