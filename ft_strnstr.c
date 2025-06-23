@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: emustafi <elmiramust2010@gmail.com>        +#+  +:+       +#+        */
+/*   By: emustafi <emustafi@student.42prague.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/10 12:38:10 by emustafi          #+#    #+#             */
-/*   Updated: 2025/06/10 18:00:18 by emustafi         ###   ########.fr       */
+/*   Updated: 2025/06/23 13:57:25 by emustafi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 		return ((char *)big);
 	i = 0;
 	little_len = ft_strlen(little);
-	while (i + little_len <= len && big[i])
+	while (big[i] && i + little_len <= len)
 	{
 		if (ft_strncmp(&big[i], little, little_len) == 0)
 			return ((char *)&big[i]);
