@@ -1,18 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: emustafi <elmiramust2010@gmail.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/29 13:10:22 by emustafi          #+#    #+#             */
-/*   Updated: 2025/06/10 18:24:02 by emustafi         ###   ########.fr       */
+/*   Created: 2025/06/10 12:38:10 by emustafi          #+#    #+#             */
+/*   Updated: 2025/06/10 18:00:18 by emustafi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_bzero(void *s, size_t n)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
-	ft_memset(s, 0, n);
+	size_t	i;
+	size_t	little_len;
+
+	if (!*little)
+		return ((char *)big);
+	i = 0;
+	little_len = ft_strlen(little);
+	while (i + little_len <= len && big[i])
+	{
+		if (ft_strncmp(&big[i], little, little_len) == 0)
+			return ((char *)&big[i]);
+		i++;
+	}
+	return (NULL);
 }
